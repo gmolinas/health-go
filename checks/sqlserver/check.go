@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-
+  
 	"github.com/denisenkom/go-mssqldb/azuread"
-)
+
 
 // Config is the SQL Server checker configuration settings container.
 type Config struct {
