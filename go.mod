@@ -3,17 +3,16 @@ module github.com/gmolinas/health-go/v5
 go 1.20
 
 require (
-	github.com/bradfitz/gomemcache v0.0.0-20230124162541-5f7a7d875746
-	github.com/go-sql-driver/mysql v1.7.0
-	github.com/hellofresh/health-go/v5 v5.1.1
-	github.com/influxdata/influxdb-client-go/v2 v2.12.3
-	github.com/jackc/pgx/v4 v4.18.1
-	github.com/jackc/pgx/v5 v5.3.1
-	github.com/lib/pq v1.10.7
-	github.com/microsoft/go-mssqldb v0.21.0
-	github.com/rabbitmq/amqp091-go v1.8.0
-	github.com/redis/go-redis/v9 v9.0.2
-	github.com/stretchr/testify v1.8.2
+	github.com/bradfitz/gomemcache v0.0.0-20220106215444-fb4bf637b56d
+	github.com/denisenkom/go-mssqldb v0.12.3
+	github.com/go-redis/redis/v9 v9.0.0-beta.2
+	github.com/go-sql-driver/mysql v1.6.0
+	github.com/influxdata/influxdb-client-go/v2 v2.9.0
+	github.com/jackc/pgx/v4 v4.16.1
+	github.com/jackc/pgx/v5 v5.2.0
+	github.com/lib/pq v1.10.6
+	github.com/rabbitmq/amqp091-go v1.3.4
+	github.com/stretchr/testify v1.8.0
 	github.com/vitorsalgado/mocha/v2 v2.0.2
 	go.mongodb.org/mongo-driver v1.11.3
 	go.opentelemetry.io/otel v1.14.0
