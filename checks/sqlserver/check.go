@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/microsoft/go-mssqldb/azuread"
+	_ "github.com/microsoft/go-mssqldb/azuread"
 )
 
 // Config is the SQL Server checker configuration settings container.
